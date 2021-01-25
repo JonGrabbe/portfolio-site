@@ -94,6 +94,9 @@
     .project-item-container {
         /* width: 80%; */
     }
+    .project-item-content-info-container {
+        overflow-x: scroll;
+    }
     .project-item-content-img {
         width: 100%;
     }

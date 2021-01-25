@@ -26,12 +26,18 @@ ul, li {
     padding: 0;
     list-style: none;
 }
+h1, h2, h3 {
+    margin: 0;
+}
 
 
 /* ---- global ---- */
 .heading-medium {
     font-size: 1.5em;
     font-weight: initial;
+}
+.heading-large {
+    font-size: 3em;
 }
 
 
@@ -74,6 +80,18 @@ header h1 {
     padding-bottom: 100px;
     padding: 100px var(--desktop-padding);
 }
+.portfolio-heading {
+    text-align: center;
+    margin-bottom: 75px;
+}
+.project-item-container {
+    margin-bottom: 80px;
+}
+.project-item-title {
+    margin-bottom: 20px;
+    font-weight: initial;
+    text-transform: uppercase;
+}
 .project-item-content-container {
     display: flex;
     align-items: flex-start;
@@ -85,7 +103,6 @@ header h1 {
     height: 290px;
     width: 320px;
     display: flex;
-    overflow: scroll;
 }
 .project-item-content-info-p {
     padding-top: 10px;
