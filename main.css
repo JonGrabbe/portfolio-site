@@ -1,0 +1,42 @@
+:root {
+    --desktop-padding: 10%;
+    /* colors */
+    --grey: #DFE6E5;
+}
+body {
+    margin: 0;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: inherit
+}
+
+
+/* ---- global ---- */
+.heading-medium {
+    font-size: 1.5em;
+    font-weight: initial;
+}
+
+
+/* ---- header ---- */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 5%;
+    background-color: var(--grey);
+}
+header h1 {
+    margin: 0;
+}
+
+
+/* ---- about ---- */
+.about-left-col {
+    max-width: 400px;
+}
