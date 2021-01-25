@@ -85,9 +85,11 @@ header h1 {
     height: 290px;
     width: 320px;
     display: flex;
+    overflow: scroll;
 }
 .project-item-content-info-p {
-    padding-top: 10px;   
+    padding-top: 10px;
+
 }
 .project-item-content-info-tech-list-container {
     display: flex;

@@ -34,6 +34,7 @@
     .project-item-content-info-container {
         height: initial;
         margin-left: 0;
+        width: 100%;
     }
     .project-item-content-info-tech-list-container {
         margin-top: 25px;
@@ -90,6 +91,9 @@
 
 @media(max-width: 500px) {
     /* -- portfolio -- */
+    .project-item-container {
+        /* width: 80%; */
+    }
     .project-item-content-img {
         width: 100%;
     }
