@@ -5,6 +5,13 @@
     }
 }
 
+@media(max-width: 1272px) {
+    .portfolio-container {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
 @media(max-width: 1220px) {
     /* 
     reduce padding on about container
@@ -17,6 +24,26 @@
     }
     #profile-img {
         width: 300px;
+    }
+}
+
+@media(max-width: 1100px) {
+    .project-item-content-container {
+        flex-direction: column;
+    }
+    .project-item-content-info-container {
+        height: initial;
+        margin-left: 0;
+    }
+    .project-item-content-info-tech-list-container {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .project-item-content-links-container {
+        margin-left: 0;
+    }
+    .project-item-content-link {
+        width: 400px;
     }
 }
 
@@ -56,6 +83,20 @@
 
 @media(max-width: 550px) {
     #profile-img {
+        width: 100%;
+    }
+}
+
+
+@media(max-width: 500px) {
+    /* -- portfolio -- */
+    .project-item-content-img {
+        width: 100%;
+    }
+    .project-item-content-links-container {
+        width: 100%;
+    }
+    .project-item-content-link {
         width: 100%;
     }
 }
