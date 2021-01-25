@@ -14,10 +14,6 @@ a {
 a:visited {
     color: inherit
 }
-h1, h2, h3 {
-    padding: 0;
-    margin: 0;
-}
 
 
 /* ---- global ---- */
@@ -44,21 +40,13 @@ header h1 {
 .about-container {
     display: flex;
     justify-content: space-between;
-    padding-left: var(--desktop-padding);
-    padding-right: var(--desktop-padding);
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-.about-left-col {
-    max-width: 400px;
-}
-.skill-item {
-    font-size: 1.3em;
+    padding: 50px var(--desktop-padding);
 }
 .skills-heading {
     background-color: var(--grey);
-    padding: 0;
-    min-width: 550px;
-    max-width: 555px;
+    width: 550px;
     text-align: center;
+}
+.about-left-col {
+    max-width: 400px;
 }

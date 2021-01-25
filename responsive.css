@@ -6,34 +6,53 @@
 }
 
 @media(max-width: 1220px) {
+    /* 
+    reduce padding on about container
+    and make profile img smaller
+    */
+    /* -- about -- */
     .about-container {
         padding-left: 5%;
         padding-right: 5%;
     }
+    #profile-img {
+        width: 300px;
+    }
 }
 
-@media(max-width: 1100px) {
+@media(max-width: 973px) {
+    /* 
+    reduce width of skills banner
+    */
+    /* -- about -- */
+    .skills-heading {
+        width: 400px;
+    }
+}
+
+@media(max-width: 973px) {
+    /* 
+    reduce width of skills banner
+    */
+    /* -- about -- */
+    .skills-heading {
+        width: 300px;
+    }
+}
+
+@media(max-width: 680px) {
+    /* 
+    about mobile responsive
+    */
+    /* -- about -- */
     .about-container {
         flex-direction: column;
-        align-items: center;
     }
-}
-
-
-@media(max-width: 630px) {
-    .about-right-col {
-        width: 100%;
+    #profile-img {
+        
     }
     .skills-heading {
-        max-width: initial;
-        min-width: initial;
         background-color: initial;
         width: initial;
-    }
-}
-
-@media(max-width: 500px) {
-    #profile-img {
-        width: 100%;
     }
 }
