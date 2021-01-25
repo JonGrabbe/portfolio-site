@@ -28,6 +28,7 @@ ul, li {
 }
 h1, h2, h3 {
     margin: 0;
+    font-weight: initial;
 }
 
 
@@ -65,9 +66,16 @@ header h1 {
     background-color: var(--grey);
     width: 550px;
     text-align: center;
+    margin-top: 40px;
+}
+.skills-container {
+    padding-left: 30px;
 }
 .about-left-col {
     max-width: 400px;
+}
+.about-p {
+    /* max-width: 300px; */
 }
 .skill-item-heading {
     font-size: 1.5em;
@@ -106,7 +114,7 @@ header h1 {
 }
 .project-item-content-info-p {
     padding-top: 10px;
-
+    max-width: 410px;
 }
 .project-item-content-info-tech-list-container {
     display: flex;

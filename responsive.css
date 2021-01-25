@@ -1,14 +1,11 @@
-@media(max-width: 410px) {
-    header {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-}
 
 @media(max-width: 1272px) {
     .portfolio-container {
         padding-left: 5%;
         padding-right: 5%;
+    }
+    .about-p {
+        /* max-width: initial; */
     }
 }
 
@@ -24,6 +21,9 @@
     }
     #profile-img {
         width: 300px;
+    }
+    .about-p {
+        max-width: 300px;
     }
 }
 
@@ -86,8 +86,20 @@
     #profile-img {
         width: 100%;
     }
+    .about-p {
+        max-width: none;
+    }
 }
 
+@media(max-width: 510px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .header-item:last-child {
+        margin-top: 15px;
+    }
+}
 
 @media(max-width: 500px) {
     /* -- portfolio -- */
