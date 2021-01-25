@@ -2,6 +2,7 @@
     --desktop-padding: 10%;
     /* colors */
     --grey: #DFE6E5;
+    --very-light-blue-grey: #FAFAFA;
 }
 body {
     margin: 0;
@@ -41,6 +42,7 @@ header h1 {
     display: flex;
     justify-content: space-between;
     padding: 50px var(--desktop-padding);
+    background-color: var(--very-light-blue-grey);
 }
 .skills-heading {
     background-color: var(--grey);
@@ -49,4 +51,8 @@ header h1 {
 }
 .about-left-col {
     max-width: 400px;
+}
+.skill-item-heading {
+    font-size: 1.5em;
+    margin-top: 20px;
 }
